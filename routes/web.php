@@ -19,5 +19,6 @@ Route::match(['post', 'get'],'/telegramWebhook', [TelegramWebhookController::cla
 Route::get('/insert',[TelegramWebhookController::class,'webhook']);
 Route::get('/test', function () {
     echo "Merhaba, bu bir test sayfasıdır.";
-    
+
+    //nicat
 });
